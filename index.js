@@ -9,12 +9,7 @@ client.on('message', message => {
     if(message.channel.name == 'general'){
         if (message.attachments.size <= 0) {
             message.delete({ timeout: 1 });
-            // console.log('Image detected');
         }
-        // else{
-        //     message.delete({ timeout: 1 });
-        //     console.log('Text deleted');
-        // }
     }
 }); 
 
