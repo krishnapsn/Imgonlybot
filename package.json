@@ -1,13 +1,11 @@
 {
   "name": "imgonlybot",
   "version": "1.0.0",
-  "description": "",
+  "description": "A bot to delete anything other than images from a particular channel",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "discord.js": "^12.3.1"
   }
