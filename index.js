@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 
 client.on('message', message => {
-    if(message.channel.name == 'general'){
+    if(message.channel.name == 'collections'){
         if (message.attachments.size <= 0) {
             message.delete({ timeout: 1 });
         }
